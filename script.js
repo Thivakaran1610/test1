@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     for (var i = 1; i <= totalPages; i++) {
         var page = document.createElement('div');
         page.classList.add('page');
-        page.style.backgroundImage = 'url(screenshots/page' + i + '.png)';
+        page.style.backgroundImage = 'url(screenshots/page' + i + ')';
         flipbook.appendChild(page);
     }
 
