@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     var flipbook = document.querySelector('.flipbook');
 
-    var totalPages = 10; // Change this to the number of your screenshots
+    var totalPages = 5; // Change this to the number of your screenshots
 
     for (var i = 1; i <= totalPages; i++) {
         var page = document.createElement('div');
